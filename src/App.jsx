@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <div id="container">
-        <h1 className="hello">Hello React Router!</h1>
+        <h1 className="hello">React Router Color Picker</h1>
         <div id="navbar">
           {/* navigation here */}
           <Link to="/blue" className="link">
