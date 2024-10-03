@@ -13,24 +13,23 @@ body > div {
   display: flex;
   flex-direction: column;
 }
-#container > div {
-  display: flex;
-}
+
 #navbar {
   padding: 2em;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  gap: 2em;
   color: white;
 }
 #main-section {
   flex-grow: 1;
 }
-#main-section > div {
+#main-section {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.hello {
+h1 {
   color: white;
 }
 .red {
@@ -46,6 +45,7 @@ body > div {
 }
 .link {
   color: white;
+  margin: 5ch;
 }
 .link:visited {
   color: aqua;
